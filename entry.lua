@@ -1,3 +1,4 @@
+-- install astronvim to in ~/.local/share/astronvim
 local path_sep = vim.loop.os_uname().version:match('Windows') and '\\' or '/'
 local join = function(...) return table.concat({...}, path_sep) end
 local getpath = function(arg)
